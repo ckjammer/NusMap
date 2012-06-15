@@ -48,7 +48,8 @@ public class NUSMapsActivity extends Activity implements LocationListener, andro
 
 		
 		overlayList = map.getOverlays();
-	
+		
+		
 		
 		compass = new MyLocationOverlay(NUSMapsActivity.this, map);
 		overlayList.add(compass);
